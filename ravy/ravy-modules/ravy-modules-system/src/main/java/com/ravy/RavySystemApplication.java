@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableDiscoveryClient
 @SpringBootApplication
-public class NacosProvideApplication {
+public class RavySystemApplication {
     public static void main(String[] args) {
-        SpringApplication.run(NacosProvideApplication.class, args);
+        SpringApplication.run(RavySystemApplication.class, args);
     }
 
     @GetMapping("/helloNacos")
